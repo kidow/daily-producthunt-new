@@ -1,3 +1,4 @@
+import { SpeedInsights } from '@vercel/speed-insights/next'
 import { Backdrop, Toast } from 'containers'
 import type { Metadata } from 'next'
 import Script from 'next/script'
@@ -62,6 +63,7 @@ export default function RootLayout({ children }: Props) {
         {children}
         <Backdrop />
         <Toast />
+        <SpeedInsights />
       </body>
     </html>
   )

@@ -259,7 +259,7 @@ export default function Page() {
             />
           </div>
         </Card>
-        <Card title="메시지">
+        <Card title={`메시지 (리스트 ${reserveList.length}개)`}>
           <form
             onSubmit={handleSubmit(onSubmit)}
             className="mt-4 grid grid-cols-1 gap-x-6 gap-y-8 md:grid-cols-3"

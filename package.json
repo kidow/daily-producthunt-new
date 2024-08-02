@@ -22,6 +22,7 @@
     "@supabase/supabase-js": "^2.26.0",
     "@usermaven/sdk-js": "^1.4.0",
     "@vercel/og": "^0.5.7",
+    "@vercel/speed-insights": "^1.0.12",
     "clsx": "^2.0.0",
     "dayjs": "^1.11.8",
     "eslint": "8.42.0",
